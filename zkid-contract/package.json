@@ -12,6 +12,8 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2",
     "@thirdweb-dev/contracts": "^3.8.0",
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.3",
     "zksync-web3": "^0.14.3"
   }
 }
