@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "./styles/globals.css";
 import Government from "./Government";
+import Game from "./Game";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -21,7 +22,8 @@ root.render(
       clientId={process.env.REACT_APP_TEMPLATE_CLIENT_ID}
     >
       {/* <User /> */}
-      <Government />
+      {/* <Government /> */}
+      <Game />
     </ThirdwebProvider>
   </React.StrictMode>
 );
