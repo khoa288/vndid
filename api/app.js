@@ -4,7 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 require("./config/db");
 
-const userWalletRoutes = require("./controller/userWalletController");
+const citizenWalletRoutes = require("./controller/citizenController");
 
 const app = express();
 app.use(express.json());
@@ -17,7 +17,7 @@ app.use(
 
 const port = process.env.PORT || 3000;
 
-app.use("/userWallet", userWalletRoutes);
+app.use("/citizenWallet", citizenWalletRoutes);
 
 // Default route for unmatched routes
 app.all("*", (req, res) => {
