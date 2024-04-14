@@ -1,30 +1,13 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import App from "./App";
-import User from "./User";
-import reportWebVitals from "./reportWebVitals";
-import { ThirdwebProvider } from "@thirdweb-dev/react";
-import "./styles/globals.css";
-import Government from "./Government";
-import Game from "./Game";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-// This is the chain your dApp will work on.
-// Change this to the chain your app is built for.
-// You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
-const activeChain = "ethereum";
-
-const container = document.getElementById("root");
-const root = createRoot(container);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThirdwebProvider
-      activeChain={activeChain}
-      clientId={process.env.REACT_APP_TEMPLATE_CLIENT_ID}
-    >
-      {/* <User /> */}
-      {/* <Government /> */}
-      <Game />
-    </ThirdwebProvider>
+    <App />
   </React.StrictMode>
 );
 
