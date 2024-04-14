@@ -26,3 +26,9 @@
 
 ## VNdID Verification Flow
 <img width="872" alt="Screenshot 2024-04-14 at 09 22 55" src="https://github.com/khoa288/vndid/assets/84215905/a91a7f66-1d2e-4eec-853e-f67b195916f0">
+
+## Tools/Frameworks/Library
+- Smart Contract: hardhat, thirdweb, ethers
+- ZKP Circuit: circomlib, snarkjs
+- Frontend: ReactJs, TailwindCSS, DaisyUI
+- API: ExpressJs, MongoDB
