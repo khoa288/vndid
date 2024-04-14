@@ -26,29 +26,3 @@
 
 ## VNdID Verification Flow
 <img width="872" alt="Screenshot 2024-04-14 at 09 22 55" src="https://github.com/khoa288/vndid/assets/84215905/a91a7f66-1d2e-4eec-853e-f67b195916f0">
-
-## Folder Structure 
-### zkid-contract
-This is where the smart contract of the VNdID is developed and deployed by [Hardhat](https://hardhat.org/) and [thirdweb SDK](https://portal.thirdweb.com/#sdk)
-. 
-- build
-- contracts
-- scripts
-- zk-circuits
-- hardhat.config.js
-- package.json
-- powersOfTau28_hez_final_12.ptau
-
-### api
-The backend for verification API.
-- api
-- config
-- controller
-- models
-- public
-- app.js
-- index.js
-
-### ui
-
-## Further Implementation
